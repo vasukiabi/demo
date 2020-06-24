@@ -1,0 +1,106 @@
+header {
+  max-width: 1440px;
+  height: 100%;
+}
+header nav {
+  border-radius: 0 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000 !important;
+}
+header nav a{
+  color : #000;
+}
+.navbar-brand{
+  font-size : 22px;
+}
+.nav-link{
+  color: #022f72;
+}
+.nav-item {
+  margin: 0 20px !important;
+}
+#contact .row {
+  padding: 15px 0 !important;
+}
+.contact-title {
+  margin-bottom: 20px !important;
+}
+.card {
+  border: none !important;
+  height: auto;
+}
+h3, .card-title {
+  color: #0244a8;
+}
+.about-us, footer{
+  background-color:#f8f8f8;
+}
+.carpool-img{
+/*  background: url("../../../../images/carpool.svg") center no-repeat;*/
+  background-size: contain;
+}
+.about-title:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -20px;
+  height: 100%;
+  width : 5px;
+  background: linear-gradient(#3a7bd5, #00d2ff);
+}
+.card-title{
+  font-size: 20px;
+}
+.card p {
+  text-align: center;
+  font-size: 15px;
+}
+.mbr-section-text h3,
+.header-text h1,
+.header-text h4{
+  letter-spacing: 1px;
+}
+.mbr-section-text p {
+  font-size: 16px;
+}
+.navbar-toggler-icon {
+  color: #000 !important;
+  font-size: 22px;
+}
+.bg-image {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("https://wallpapercrafter.com/uploads/posts/7222-___drive-night-car-and-mini-hd.jpg")
+      no-repeat bottom fixed;
+  background-size: cover;
+}
+.header-text{
+    top : 25%;
+    left : 5%;
+    color : #fff;
+}
+.header-text h1 {
+  font-size: 45px;
+}
+@media (max-width : 992px) {
+  .navbar-nav{
+      float: left !important;
+  }
+}
+@media (max-width : 768px) {
+  .carpool-img{
+    height: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .card-text{
+    font-size : 12px;
+  }
+  .card-title{
+    font-size : 15px;
+  }
+}
